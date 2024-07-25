@@ -10,7 +10,7 @@ export WSPATH=serv00
 
 # ARGO 隧道参数（如需固定 ARGO 隧道，请把 ey 开头的 ARGO 隧道的 token 填入 ARGO_AUTH ，仅支持这一种方式固定，隧道域名代理的协议为 HTTP ，端口为 VMPORT 同端口。如果不固定 ARGO 隧道，请删掉ARGO_DOMAIN那行，保留ARGO_AUTH这行。）
 export ARGO_AUTH='eyJhIjoiOTliOGQ3ZmQ3ODI2NjBjOTQ0ZjBjNzg4OTEyMzRmZTgiLCJ0IjoiMmE3N2MzYmItOTNiZi00YThjLTg2YmMtYjc2MTk5NjRmNmY5IiwicyI6IlpUSTFOek13WkRRdE9UWTNNaTAwTmpZekxUZ3hNR010WVdJd09HUXdOalkyT1RjeSJ9'
-export ARGO_DOMAIN=vs.comfyui.us.kg
+export ARGO_DOMAIN=vls.comfyui.us.kg
 
 # 网页的用户名和密码（可不填，默认为 admin 和 password ，如果不填请删掉这两行）
 export WEB_USERNAME=an
