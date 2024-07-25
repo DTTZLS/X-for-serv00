@@ -1,7 +1,7 @@
 WSPATH=${WSPATH:-'serv00'}  # WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-VMPORT=${VMPORT:-'3001'}
-WEBPORT=${WEBPORT:-'3002'}
+UUID=${UUID:-'3d6f4b2d-8d36-4f2d-bdd7-1fbd0d29e0c9'}
+VMPORT=${VMPORT:-'38556'}
+WEBPORT=${WEBPORT:-'6577'}
 
 generate_config() {
     cat > config.json << EOF
